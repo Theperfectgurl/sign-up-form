@@ -110,7 +110,7 @@ body{
 button{
     background-color:#596D48;
     position: relative;
-    top: 150px;
+    top: 130px;
     left: 30px;
     height: 40px;
     width: 200px;
@@ -121,7 +121,7 @@ button{
 }
 p{
     position: relative;
-    top: 155px;
+    top: 135px;
     left: 30px;
 }
 a{
