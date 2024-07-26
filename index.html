@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+       
+
+
+        <div class="logoContainer">
+            <img src="/sign-up-form/images/odin-lined.png" alt="Logo">
+            <h1>ODIN</h1>
+        </div>
+        <div class="formContainer">
+            <h3>This is not a real online service! You know you need something <br>
+                 like this in your life to help realize your deepest dreams.
+                  <br> sign up <em>now</em> to get started.</h3>
+
+                  <h3>You <em>know</em> you want to.</h3>
+            
+                  <div class="inputContainer">
+                    <h2>Let's do this!</h2>
+                    <div class="inputContainerTwo">
+                    <div class="forms">
+                      
+                        <label for="">FIRST NAME</label>
+                        <input type="text" placeholder="" required>
+                    </div>
+                    <div class="forms">
+                        <label for="">LAST NAME</label>
+                        <input type="text" placeholder="" required>
+                    </div> 
+                    <div class="forms">
+                        <label for="">EMAIL</label>
+                        <input type="email" placeholder="" required>
+                    </div>
+                    <div class="forms">
+                        <label for="">PHONE NUMBER</label>
+                        <input type="number" placeholder="" required>
+                    </div>
+                    <div class="forms">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" placeholder="" required minlength="8">
+                        <span class="error-message" id="password-error">*Password must be at least 8 characters long.</span>
+                    </div>
+                    <div class="forms">
+                        <label for="confirmPassword">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirmPassword" placeholder="" required minlength="8">
+                        <span class="error-message" id="confirmPassword-error">Please confirm your password.</span>
+                    </div>
+                </div>
+                   
+                </div>
+            <button>Create account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
+        
+    </div>
+</body>
+</html>
